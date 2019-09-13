@@ -1,0 +1,24 @@
+{
+   "manifest_version": 2,
+   "name" : "chrome-listenyo",
+   "version" : "0.0.0.1",
+   "browser_action": {
+      "default_title": "chrome-listenyo"
+   },
+   "content_scripts": [
+      {
+         "matches": [
+            "https://youtube.com/*"
+         ],
+         "js": [
+            "jquery-3.2.1.min.js",
+            "content.js"
+         ],
+         "run_at": "document_end"
+      }
+   ],
+   "permissions": [
+      "tabs",
+      "https://youtube.com/*"
+   ]
+}
