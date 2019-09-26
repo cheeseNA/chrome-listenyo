@@ -1,12 +1,13 @@
 {
    "manifest_version": 2,
-   "name" : "chrome-listenyo",
-   "version" : "0.0.0.1",
+   "name" : "YouTube to ListenYo",
+   "description" : "Jump from YouTube to ListenYo by a single click.",
+   "version" : "1.0.0",
    "icons" : {
       "128": "icon128.png"
    },
    "browser_action": {
-      "default_title": "chrome-listenyo"
+      "default_title": "Jump to ListenYo"
    },
    "background": {
         "scripts": [
